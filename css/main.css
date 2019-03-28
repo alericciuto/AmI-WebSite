@@ -1,13 +1,3 @@
-/*!
- * SNOW Landing Page Theme
- *
- * Created by Visual Soldiers
- * Visit us at http://www.visualsoldiers.com
- *
- * Handcrafted with love in Atlanta!
- */
-
-
 /* ==========================================================================
    Global styles
    ========================================================================== */
@@ -132,7 +122,7 @@ a:hover, a:focus {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #b47c44;
+  background-color: #8be2e5;
   color: #ffffff;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -409,9 +399,38 @@ hr.line {
     left: 0;
     right: 0;
     width: 100%;
-    max-width: 440px;
+    max-width: 800px;
+    z-index: 1
 }
 
+#be-the-second {
+  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  min-height: 300px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr.line {
+	width: 100%;
+	border: 2px solid;
+}
+
+.purple {
+	border-color: #6d3f96;
+	color: #6d3f96;
+}
+
+.blue {
+	border-color: #70cbce;
+	color: #70cbce
+}
+
+.yellow {
+	border-color: #fdc05d;
+	color: #fdc05d;
+}
 
 #invite {
   background: #f2f2f2;
@@ -476,7 +495,7 @@ footer {
   transition: all 0.25s ease-in-out;
 }
 .pricing-table.active {
-  box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
+  box-shadow: 0px 0px 12px rgba(41,46,50,0.6);
   position: absolute;
   margin: auto;
   z-index: 200;
@@ -611,7 +630,7 @@ footer {
    Mobile styles
    ========================================================================== */
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 .btn-lg {
   font-size: 12.5px;
@@ -629,7 +648,7 @@ footer {
   letter-spacing: 0px;
 }
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -637,9 +656,9 @@ footer {
 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) { 
+@media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
 
@@ -649,10 +668,36 @@ footer {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first { 
+#be-the-first {
       background-attachment: scroll;
   }
-  
+
+}
+
+#be-the-second {
+      background-attachment: scroll;
+  }
+
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+
+#be-the-second {
+      background-attachment: scroll;
+  }
+
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 991px) {
+
+#be-the-second {
+      background-attachment: scroll;
+  }
+
 }
 
 
@@ -661,15 +706,10 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-     
+
 
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
 
-}   
-
-
-
-
-
+}
