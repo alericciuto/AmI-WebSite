@@ -1,7 +1,7 @@
 /* ==========================================================================
    Global styles
    ========================================================================== */
-h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #pricing {
+h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, small, #ami_steps {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -359,7 +359,7 @@ header {
 
 
 
-#be-the-first {
+#project_vision {
   background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
@@ -403,7 +403,7 @@ hr.line {
     z-index: 1
 }
 
-#be-the-second {
+#architecture {
   background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
@@ -432,7 +432,7 @@ hr.line {
 	color: #fdc05d;
 }
 
-#invite {
+#team {
   background: #f2f2f2;
 }
 
@@ -476,7 +476,7 @@ footer {
 /*---------------Pricing Tables-------------------*/
 
 
-#pricing {
+#ami_steps {
   background: #70cbce;
 }
 
@@ -648,56 +648,39 @@ footer {
   letter-spacing: 0px;
 }
 
-#be-the-first {
+#project_vision {
       background-attachment: scroll;
   }
 
+#architecture {
+      background-attachment: scroll;
+  }
 }
 
 
 /* Landscape phone to portrait tablet */
 @media (min-width: 481px) and (max-width: 767px) {
 
-#be-the-first {
+#project_vision {
       background-attachment: scroll;
   }
 
+#architecture {
+      background-attachment: scroll;
+  }
 }
 
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
-#be-the-first {
+#project_vision {
       background-attachment: scroll;
   }
 
-}
-
-#be-the-second {
+#architecture {
       background-attachment: scroll;
   }
-
-}
-
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
-
-#be-the-second {
-      background-attachment: scroll;
-  }
-
-}
-
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 991px) {
-
-#be-the-second {
-      background-attachment: scroll;
-  }
-
 }
 
 
