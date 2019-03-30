@@ -7,8 +7,9 @@ h1, h2, h3, h4, h5, h6, p, .btn, .navbar-nav a, .form-control, .list-inline, sma
 
 @font-face {
 	font-family: 'BRLNSR';
-	src: url('./BRLNSR.eot');
-	src: local('BRLNSR'), url('./BRLNSR.woff') format('woff'), url('./BRLNSR.ttf') format('truetype');
+	src: url('fonts/BRLNSR.eot');
+	src: url('fonts/BRLNSR.woff') format('woff'), 
+		url('fonts/BRLNSR.ttf') format('truetype');
 }
 .BerlinSansReg {
 	font-family: 'BRLNSR';
