@@ -423,6 +423,7 @@
 </section>
 
 <!--HW/SW-->
+<!-- 
     <section id="architecture" class="pad-xl">
       <div class="container">
         <div class="row margin-40">
@@ -459,7 +460,71 @@
         </div>
       </div>
     </section>
+-->
 
+  <div class="py-5 bg-light" id="architecture">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="text-center text-primary"> Architecture </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <br>
+          <p>
+            <img src="img/system_architecture.png" class="img-fluid" alt="Responsive image"> </p>
+          <br> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center text-dark"> Software Architecture </h3>
+          <h4 class="text-info"> Web Server </h4>
+          <p>The web server is the central computational node; it runs on the RaspberryPi. It is composed by five main software modules: </p>
+          <p>Database: Manages connections to the database for local calendar, user profiles, pictures and outfit history </p>
+          <p>Logic: Algorithms to suggest, choose and review outfits. </p>
+          <p>User Interface: Provides ways for the user to interact with the system in the form of voice control, mobile application and face recognition. </p>
+          <p>Hardware Interface: Manages communications between the server and other hardware components such as Arduino, lights and NFC reader. </p>
+          <p>APIs Handler: Gets needed informations by calling several external services like Google Calendar, Spotify, Weather provider. Offers RESTful APIs for the web server to be called by a web app. </p>
+          <h4 class="text-info"> Web Application </h4>
+          <p> Displays the system operations and results to the user, providing a graphic interface to the system. It runs on the PC and calls the web server APIs. </p>
+          <h4 class="text-info"> Android App</h4>
+          <p> User interface: replicates the web application features and helps adding a new dress, in addition it is used as an alternative input method. </p>
+          <p> Spotify: Remote controls Spotify and automatically suggest/plays appropriate playlists while getting ready for an event </p>
+          <p> Calendar: connects to Google Calendar providing events sync for each user </p>
+          <h4 class="text-info"> Arduino Software </h4>
+          <p> Controls weight sensors and the rotating bar for crutches, communicating with the web server. It runs on Arduino and communicates with the PC. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center text-dark"> Hardware Architecture </h3>
+          <h4 class="text-info"> Computational Nodes </h4>
+          <p>PC: Data elaboration and web server hosting. Manages camera, room lights, wardrobe lights, and Arduino. </p>
+          <p>Arduino: It controls the rotating bar for crutches and manages weight sensors. </p>
+          <h4 class="text-info"> Devices </h4>
+          <p>Camera: takes pictures for face recognition and to memorize dresses into the database. Recognizes gestures for user interaction. It’s placed on top of the mirror. </p>
+          <p>Microphone: providing voice control for user interaction. It’s placed behind the mirror. </p>
+          <p>NFC reader: scans NFC tags to register when a dress is taken in or out the wardrobe. It’s placed on the wardrobe. </p>
+          <p>Room lights: they lighten up the room, being set brighter when dressing up. They are on the ceiling. </p>
+          <p>Wardrobe lights: one for each sector of the wardrobe, they light up to show where the requested dress is. They are in the wardrobe. </p>
+          <p>Rotating bar for crutches: it is a bar for crutches divided into sectors. It can rotate to show one or the other based on where a requested dress is or where there is available space. It’s placed into the wardrobe. </p>
+          <p>Weight sensors: used to sense where a dress is put inside the wardrobe. They are placed under every shelf of the wardrobe. </p>
+          <p>Speakers: Playing music. They are placed around the mirror. </p>
+          <p> </p>
+          <p>NFC reader (as Android application): scans NFC tags to register when a dress is taken in or out the wardrobe. It’s placed on the wardrobe.</p>
+          <h4 class="text-info"> User Interface Devices </h4>
+          <p>Monitor: shows the informations and allows the system to communicate with the user. It’s placed behind a two-way mirror. </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center text-dark"> Network Architecture </h3>
+          <img class="img-fluid" src="img/network_architecture.png"> </div>
+      </div>
+    </div>
+  </div>
 
 <!--OPEN ISSUES-->
     <section id="open_issues" class="pad-lg light-gray-bg">
